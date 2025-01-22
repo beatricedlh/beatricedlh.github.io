@@ -1,0 +1,82 @@
+h1 {
+    font-family: "garamond-premier-pro-display", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -2px;
+    font-size: 70px;
+  }
+
+h2 {
+    font-family: "garamond-premier-pro-display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+  }
+
+p {
+    font-family: "garamond-premier-pro-display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+.title {
+    text-align: center;
+    margin: 10px auto;
+    max-width: 800px;
+  }
+
+.row {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: nowrap; 
+    gap: 20px; 
+    margin: 20px auto;
+    max-width: 1200px; 
+  }
+
+.row2 {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: nowrap; 
+    gap: 20px; 
+    margin: 20px auto;
+    max-width: 1200px; 
+  }
+
+.box {
+    flex: 1 1 calc(20% - 20px);
+    max-width: calc(20% - 20px);
+    height: 300px;
+    background-color: #f4f4f4;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+  }
+
+.box2 {
+    flex: 1 1 calc(20% - 20px);
+    max-width: calc(20% - 20px);
+    height: 100px;
+    background-color: #f4f4f4;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+  }
+
+img {
+    width: 30px;
+}
+
+.link {
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 800px;
+  }  
+
+#simple-animation {
+    margin-top: -30px;
+}
