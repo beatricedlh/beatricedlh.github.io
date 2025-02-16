@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    overflow: hidden;
+    font-family: "garamond-premier-pro-display", serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+input, button {
+    width: 200px;
+    padding: 4px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button {
+    background-color: whitesmoke;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+div {
+    width: 200px;
+    padding-left: 18px;
+    margin-top: 15px;
+    font-weight: 600;
+}
