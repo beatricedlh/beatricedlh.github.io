@@ -19,7 +19,7 @@ h1 {
     position: fixed;
     z-index: 1;
     top: 10%;
-    left: 15%;
+    left: 13%;
     background: #f5f5f5;
     padding: 8px;
     border: 1px solid #000000;
@@ -29,7 +29,7 @@ h1 {
 .gridContainer {
     position: fixed;
     top: 10%;
-    right: 15%;
+    right: 13%;
 }
 
 .refreshBtn {
