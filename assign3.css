@@ -1,0 +1,50 @@
+* {
+    overflow: hidden;
+    font-family: "garamond-premier-pro-display", serif;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+h1 {
+    font-family: "garamond-premier-pro-display", serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 0.85;
+}
+
+h2 {
+    font-family: "garamond-premier-pro-display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#nav {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+button {
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#quiz-container label {
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+}
