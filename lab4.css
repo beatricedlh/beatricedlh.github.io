@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    overflow: hidden;
+}
+
+.canvas {
+    border: 1px solid #000000;
+    border-radius: 8px;
+    display: block;
+    margin: 20px auto;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
