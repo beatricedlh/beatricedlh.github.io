@@ -1,6 +1,6 @@
-let popcornSound;
-let kernelImages = [];
-let bucketImg;
+var popcornSound;
+var kernelImages = [];
+var bucketImg;
 
 function preload() {
   popcornSound = createAudio('/images/pop.mp3');
@@ -19,19 +19,19 @@ function setup() {
     createCanvas(windowWidth - 75, windowHeight - 75);
     background('245');
 
-    let c = select('canvas');
+    var c = select('canvas');
     c.addClass('canvas');
 
-    let bucket = createImg(bucketImg);
+    var bucket = createImg(bucketImg);
     bucket.size(200, 200);
     bucket.position(20, height - 160);
 }
 
 function mousePressed() {
-    let randomIndex = floor(random(0, kernelImages.length));
-    let chosenKernel = kernelImages[randomIndex];
+    var randomIndex = floor(random(0, kernelImages.length));
+    var chosenKernel = kernelImages[randomIndex];
   
-    let kernel = createImg(chosenKernel);
+    var kernel = createImg(chosenKernel);
     kernel.position(mouseX - 50, mouseY - 50);
     kernel.size(175, 175);
   
