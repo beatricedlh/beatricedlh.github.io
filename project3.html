@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>bdlh</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/project3.css">
+  <link rel="stylesheet" href="https://use.typekit.net/otk1nwn.css">
+  <link rel="icon" type="image/x-icon" href="images/icon.png">
+</head>
+
+<body>
+  <!-- floating preview image (optional) -->
+  <img id="hover-preview" src="" alt="Preview image">
+
+  <div class="container">
+    <!-- sidebar -->
+    <aside class="sidebar">
+      <a href="index.html">
+        <img src="images/icon.png" class="icon" alt="Home icon">
+      </a>
+
+      <p><br>
+        As part of my Graphic Design 2 course, I developed a website dedicated to learning crochet. The site, fully coded in HTML, CSS, and JS, was designed to offer an engaging experience for Gen Z users interested in crochet, while providing clear and accessible content. <br><br>
+        Later, the website content was adapted into a printed zine. Produced using a risograph printer, the paper version featured 8 spreads measuring 4.25” × 5.5” on one side, and an 11” × 17” poster on the reverse.
+      </p>
+
+      <nav>
+        <ul>
+          <li><br><a href="project1.html" class="preview-link" data-image="images/icon.png">Project One</a></li>
+          <li><a href="project2.html" class="preview-link" data-image="images/icon-2.png">Project Two</a></li>
+          <li><a href="project3.html" class="preview-link" data-image="images/icon.png">Project Three</a></li>
+          <li><a href="project4.html" class="preview-link" data-image="images/icon-2.png">Project Four</a></li>
+          <li><a href="project5.html" class="preview-link" data-image="images/icon.png">Project Five</a></li>
+        </ul>
+      </nav>
+
+      <!-- contact links -->
+      <div class="contact">
+        <p><a href="https://www.linkedin.com/in/beatricedlh/" target="_blank">LinkedIn</a></p>
+        <p><a href="mailto:bdovallheureux@ocadu.com" target="_blank">Email</a></p>
+      </div>
+    </aside>
+
+    <!-- main content -->
+    <main class="content">
+
+      <!-- video -->
+      <div class="video-wrapper">
+        <iframe 
+          src="https://player.vimeo.com/video/940457929?background=1&autoplay=1&muted=1&loop=0&title=0&byline=0&portrait=0"
+          frameborder="0" 
+          allow="autoplay; fullscreen; picture-in-picture" 
+          allowfullscreen 
+          style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+          title="hookedon">
+        </iframe>
+      </div>      
+      
+
+      <!-- grid of 15 images -->
+      <div class="image-grid">
+        <img src="images/P3/SC1.png" alt="Grid Image 1">
+        <img src="images/P3/SC2.png" alt="Grid Image 2">
+        <img src="images/P3/SC3.png" alt="Grid Image 3">
+        <img src="images/P3/SC4.png" alt="Grid Image 4">
+        <img src="images/P3/SC5.png" alt="Grid Image 5">
+        <img src="images/P3/CHAIN1.png" alt="Grid Image 6">
+        <img src="images/P3/CHAIN2.png" alt="Grid Image 7">
+        <img src="images/P3/HOLDING1.png" alt="Grid Image 8">
+        <img src="images/P3/HOLDING2.png" alt="Grid Image 9">
+      </div>
+
+      <!-- stacked project images -->
+      <div class="project">
+        <img src="images/P3/HOOK_PHOTO-1.jpg" alt="Project image 1">
+      </div>
+      <div class="project">
+        <img src="images/P3/HOOK_PHOTO-2.jpg" alt="Project image 2">
+      </div>
+
+      <!-- bottom navigation buttons -->
+      <div class="bottom-buttons">
+        <a href="#top" class="button">Back to Top ↑</a>
+        <a href="project4.html" class="button">Next Project →</a>
+      </div>
+    </main>
+  </div>
+
+  <!-- lightbox (popup image viewer) -->
+  <div id="lightbox" class="hidden">
+    <span id="lightbox-close">&times;</span>
+    <img id="lightbox-img" src="" alt="Enlarged Image">
+  </div>
+
+  <!-- page-specific JavaScript -->
+  <script src="js/project3.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+/* basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "garamond-premier-pro-display", serif;
+  font-weight: 400;
+  font-style: normal;
+  cursor: crosshair;
+}
+
+body {
+  overflow-x: hidden;
+  position: relative;
+  overscroll-behavior: none;
+  scroll-behavior: smooth;
+}
+
+/* canvas for p5.js */
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+/* layout */
+.container {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.sidebar, .content {
+  border: none;
+}
+
+.content {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* sidebar */
+.sidebar {
+  position: sticky;
+  top: 0;
+  width: 375px;
+  height: 100vh;
+  padding: 2rem;
+  background: #ffffff;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar nav a,
+.sidebar p a {
+  color: #000000;
+  text-decoration: none;
+  font-style: normal;
+}
+
+/* contact section */
+.contact {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+
+/* sidebar hover */
+.sidebar nav a:hover,
+.sidebar p a:hover {
+  color: #ff0000;
+  font-style: italic;
+}
+
+/* hover preview */
+#hover-preview {
+  position: fixed;
+  height: 75px;
+  pointer-events: none;
+  display: none;
+  z-index: 9999;
+  transition: opacity 0.1s ease;
+}
+
+#hover-text {
+  color: #000000;
+  font-style: italic;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transition: opacity 0.2s ease;
+}
+
+/* images */
+.project img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: none;
+}
+
+/* icon */
+.icon {
+  width: 25px;
+  height: auto;
+  display: inline-block;
+}
+
+.icon:hover {
+  transform: rotate(10deg);
+}

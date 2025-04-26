@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>bdlh</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/project2.css">
+  <link rel="stylesheet" href="https://use.typekit.net/otk1nwn.css">
+  <link rel="icon" type="image/x-icon" href="images/icon.png">
+</head>
+
+<body>
+  <!-- floating preview image (optional) -->
+  <img id="hover-preview" src="" alt="Preview image">
+
+  <div class="container">
+    <!-- sidebar -->
+    <aside class="sidebar">
+      <a href="index.html">
+        <img src="images/icon.png" class="icon" alt="Home icon">
+      </a>
+
+      <p><br>
+        In the spring of 2023, I created a book focused on communicating the different classifications of typefaces.<br><br>
+        Each section features examples of each style, along with a discussion of the formal differences between the categories, their relevance to typographic tasks, and a brief overview of their origins.
+      </p>
+
+      <nav>
+        <ul>
+          <li><br><a href="project1.html" class="preview-link" data-image="images/icon.png">Project One</a></li>
+          <li><a href="project2.html" class="preview-link" data-image="images/icon-2.png">Project Two</a></li>
+          <li><a href="project3.html" class="preview-link" data-image="images/icon.png">Project Three</a></li>
+          <li><a href="project4.html" class="preview-link" data-image="images/icon-2.png">Project Four</a></li>
+          <li><a href="project5.html" class="preview-link" data-image="images/icon.png">Project Five</a></li>
+        </ul>
+      </nav>
+
+      <!-- contact links -->
+      <div class="contact">
+        <p><a href="https://www.linkedin.com/in/beatricedlh/" target="_blank">LinkedIn</a></p>
+        <p><a href="mailto:bdovallheureux@ocadu.com" target="_blank">Email</a></p>
+      </div>
+    </aside>
+
+    <!-- main content -->
+    <main class="content">
+
+      <!-- slideshow -->
+      <div class="slideshow">
+        <div class="slide active">
+          <img src="images/P2/PAGE_1.jpg" alt="Slide 1">
+        </div>
+        <div class="slide">
+          <img src="images/P2/ABCS_EDIT_SCAN-4.jpg" alt="Slide 2">
+        </div>
+        <div class="slide">
+          <img src="images/P2/ABCS_EDIT_SCAN-5.jpg" alt="Slide 3">
+        </div>
+        <div class="slide">
+          <img src="images/P2/PAGE_6.jpg" alt="Slide 4">
+        </div>
+        <div class="slide">
+          <img src="images/P2/PAGE_11.jpg" alt="Slide 5">
+        </div>
+        <div class="slide">
+          <img src="images/P2/ABCS_EDIT_SCAN-13.jpg" alt="Slide 6">
+        </div>
+        <div class="slide">
+          <img src="images/P2/PAGE_10.jpg" alt="Slide 7">
+        </div>
+        <div class="slide">
+          <img src="images/P2/PAGE_9.jpg" alt="Slide 8">
+        </div>
+        <div class="slide">
+          <img src="images/P2/PAGE_14.jpg" alt="Slide 9">
+        </div>
+
+        <!-- slideshow arrows -->
+        <button class="prev">←</button>
+        <button class="next">→</button>
+      </div>
+
+      <!-- grid of 15 images -->
+      <div class="image-grid">
+        <img src="images/P2/PAGE_1.jpg" alt="Grid Image 1">
+        <img src="images/P2/PAGE_2.jpg" alt="Grid Image 2">
+        <img src="images/P2/PAGE_3.jpg" alt="Grid Image 3">
+        <img src="images/P2/PAGE_4.jpg" alt="Grid Image 4">
+        <img src="images/P2/PAGE_5.jpg" alt="Grid Image 5">
+        <img src="images/P2/PAGE_6.jpg" alt="Grid Image 6">
+        <img src="images/P2/PAGE_7.jpg" alt="Grid Image 7">
+        <img src="images/P2/PAGE_8.jpg" alt="Grid Image 8">
+        <img src="images/P2/PAGE_9.jpg" alt="Grid Image 9">
+        <img src="images/P2/PAGE_10.jpg" alt="Grid Image 10">
+        <img src="images/P2/PAGE_11.jpg" alt="Grid Image 11">
+        <img src="images/P2/PAGE_12.jpg" alt="Grid Image 12">
+        <img src="images/P2/PAGE_13.jpg" alt="Grid Image 13">
+        <img src="images/P2/PAGE_14.jpg" alt="Grid Image 14">
+      </div>
+
+      <!-- bottom navigation buttons -->
+      <div class="bottom-buttons">
+        <a href="#top" class="button">Back to Top ↑</a>
+        <a href="project3.html" class="button">Next Project →</a>
+      </div>
+    </main>
+  </div>
+
+  <!-- lightbox (popup image viewer) -->
+  <div id="lightbox" class="hidden">
+    <span id="lightbox-close">&times;</span>
+    <img id="lightbox-img" src="" alt="Enlarged Image">
+  </div>
+
+  <!-- page-specific JavaScript -->
+  <script src="js/project2.js"></script>
+</body>
+</html>

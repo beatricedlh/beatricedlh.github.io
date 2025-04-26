@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>bdlh</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/project4.css">
+  <link rel="stylesheet" href="https://use.typekit.net/otk1nwn.css">
+  <link rel="icon" type="image/x-icon" href="images/icon.png">
+</head>
+
+<body>
+  <!-- floating preview image (optional) -->
+  <img id="hover-preview" src="" alt="Preview image">
+
+  <div class="container">
+    <!-- sidebar -->
+    <aside class="sidebar">
+      <a href="index.html">
+        <img src="images/icon.png" class="icon" alt="Home icon">
+      </a>
+
+      <p><br>
+        Created for my Graphic Design 4 course, this project was the final reflective piece in a semester-long exploration of the word ommateum. 
+        The course asked students to respond to their word through four dimensions.<br><br> This final piece, is a circular book made of vellum and cardstock, bound with a Chicago screw.
+        Through layered and distorted imagery, the book explores the shaping of meaning through absence. It reflects on how perception is influenced not just by what is shown, but by what is withheld.
+      </p>
+
+      <nav>
+        <ul>
+          <li><br><a href="project1.html" class="preview-link" data-image="images/icon.png">Project One</a></li>
+          <li><a href="project2.html" class="preview-link" data-image="images/icon-2.png">Project Two</a></li>
+          <li><a href="project3.html" class="preview-link" data-image="images/icon.png">Project Three</a></li>
+          <li><a href="project4.html" class="preview-link" data-image="images/icon-2.png">Project Four</a></li>
+          <li><a href="project5.html" class="preview-link" data-image="images/icon.png">Project Five</a></li>
+        </ul>
+      </nav>
+
+      <!-- contact links -->
+      <div class="contact">
+        <p><a href="https://www.linkedin.com/in/beatricedlh/" target="_blank">LinkedIn</a></p>
+        <p><a href="mailto:bdovallheureux@ocadu.com" target="_blank">Email</a></p>
+      </div>
+    </aside>
+
+    <!-- main content -->
+    <main class="content">
+
+      <!-- slideshow -->
+      <div class="slideshow">
+        <div class="slide active">
+          <img src="images/p4/OMMATEUM-1.jpg" alt="Slide 1">
+        </div>
+        <div class="slide active">
+          <img src="images/p4/1.jpg" alt="Slide 2">
+        </div>
+        <div class="slide">
+          <img src="images/P4/OMMATEUM-11.jpg" alt="Slide 3">
+        </div>
+        <div class="slide">
+          <img src="images/P4/2.jpg" alt="Slide 4">
+        </div>
+        <div class="slide">
+          <img src="images/P4/OMMATEUM-7.jpg" alt="Slide 5">
+        </div>
+        <div class="slide">
+          <img src="images/P4/3.jpg" alt="Slide 6">
+        </div>
+        <div class="slide">
+          <img src="images/P4/OMMATEUM-4.jpg" alt="Slide 7">
+        </div>
+        <div class="slide">
+          <img src="images/P4/4.jpg" alt="Slide 8">
+        </div>
+
+        <!-- slideshow arrows -->
+        <button class="prev">←</button>
+        <button class="next">→</button>
+      </div>
+
+      <!-- grid of 15 images -->
+      <div class="image-grid">
+        <img src="images/P4/OMMATEUM-4.jpg" alt="Grid Image 1">
+        <img src="images/P4/OMMATEUM-5.jpg" alt="Grid Image 2">
+        <img src="images/P4/OMMATEUM-6.jpg" alt="Grid Image 3">
+        <img src="images/P4/OMMATEUM-7.jpg" alt="Grid Image 4">
+        <img src="images/P4/OMMATEUM-8.jpg" alt="Grid Image 5">
+        <img src="images/P4/OMMATEUM-9.jpg" alt="Grid Image 6">
+        <img src="images/P4/OMMATEUM-10.jpg" alt="Grid Image 7">
+        <img src="images/P4/OMMATEUM-11.jpg" alt="Grid Image 8">
+        <img src="images/P4/OMMATEUM-13.jpg" alt="Grid Image 9">
+        <img src="images/P4/OMMATEUM-14.jpg" alt="Grid Image 10">
+        <img src="images/P4/OMMATEUM-15.jpg" alt="Grid Image 11">
+        <img src="images/P4/OMMATEUM-16.jpg" alt="Grid Image 12">
+        <img src="images/P4/OMMATEUM-17.jpg" alt="Grid Image 13">
+        <img src="images/P4/OMMATEUM-18.jpg" alt="Grid Image 14">
+        <img src="images/P4/OMMATEUM-20.jpg" alt="Grid Image 15">
+      </div>
+
+      <!-- stacked project images -->
+      <div class="project">
+        <img src="images/P4/FINAL-1.png" alt="Project image 1">
+      </div>
+      <div class="project">
+        <img src="images/P4/FINAL-2.png" alt="Project image 2">
+      </div>
+
+      <!-- bottom navigation buttons -->
+      <div class="bottom-buttons">
+        <a href="#top" class="button">Back to Top ↑</a>
+        <a href="project5.html" class="button">Next Project →</a>
+      </div>
+    </main>
+  </div>
+
+  <!-- lightbox (popup image viewer) -->
+  <div id="lightbox" class="hidden">
+    <span id="lightbox-close">&times;</span>
+    <img id="lightbox-img" src="" alt="Enlarged Image">
+  </div>
+
+  <!-- page-specific JavaScript -->
+  <script src="js/project4.js"></script>
+</body>
+</html>
