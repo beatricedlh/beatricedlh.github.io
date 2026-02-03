@@ -168,7 +168,7 @@
   }
   
   .image-grid img {
-    width: calc(33.333% - 0.8rem); /* 3 images per row */
+    width: calc(20% - 0.8rem); /* 5 images per row */
     height: auto;
     object-fit: cover;
   }
